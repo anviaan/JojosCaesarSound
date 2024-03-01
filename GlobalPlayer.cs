@@ -11,7 +11,11 @@ public class GlobalPlayer: ModPlayer
     {
         if (proj.type == ProjectileID.Boulder)
         {
-            SoundStyle caesarSound = new SoundStyle("JojosCaesarSound/Sounds/caesar");
+            SoundStyle caesarSound = new SoundStyle("JojosCaesarSound/Sounds/caesar") with
+            {
+                Volume = 2.0f,
+                MaxInstances = 1
+            };
             SoundEngine.PlaySound( caesarSound, Player.position);
         }
     }
