@@ -14,7 +14,8 @@
  This mod is licensed under the  MIT License. 
  
  Changelog 
- v1.0.0 - Initial release. 
+    v1.0.1 - Fixed mod description.
+    v1.0.0 - Initial release. 
  
  Source Code 
  The source code for this mod is available on  GitHub. 
